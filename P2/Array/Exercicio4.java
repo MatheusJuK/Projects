@@ -15,5 +15,6 @@ public class Exercicio4 {
                 System.out.println("Está no indice " + i);
             }
         }
+        input.close();
     }
 }
