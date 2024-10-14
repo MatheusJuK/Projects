@@ -9,8 +9,8 @@ public class Exercicio8 {
 
         Animais.add(cachorro);
         Animais.add(gato);
-        for (int i = 0; i < Animais.size(); i++) {
-            Animais.get(i).fazerSom();
+        for (Animal animal : Animais) {
+            animal.fazerSom();
         }
     }
 }
